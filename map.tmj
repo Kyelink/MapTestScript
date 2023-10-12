@@ -472,7 +472,30 @@
          "draworder":"topdown",
          "id":63,
          "name":"configuration",
-         "objects":[],
+         "objects":[
+                {
+                 "height":0,
+                 "id":20,
+                 "name":"testvar",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"default",
+                         "type":"int",
+                         "value":42
+                        }, 
+                        {
+                         "name":"persist",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"variable",
+                 "visible":true,
+                 "width":0,
+                 "x":215.489030584675,
+                 "y":295.89538528045
+                }],
          "opacity":1,
          "properties":[
                 {
@@ -570,7 +593,7 @@
          "y":0
         }],
  "nextlayerid":64,
- "nextobjectid":20,
+ "nextobjectid":21,
  "orientation":"orthogonal",
  "properties":[
         {
