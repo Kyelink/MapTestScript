@@ -11,10 +11,10 @@ WA.onInit().then(() => {
     console.log('Scripting API ready');
     console.log('Player tags: ',WA.player.tags)
 
-    var pos = await WA.player.getPosition();
+    var pos = WA.player.getPosition();
     WA.camera.set(
-        pos[x],
-        pos[y],
+        pos.getAttribute('x'),
+        pos.getAttribute('y'),
         32768,
         32768,
         false,
