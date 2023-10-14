@@ -11,6 +11,15 @@ WA.onInit().then(() => {
     console.log('Scripting API ready');
     console.log('Player tags: ',WA.player.tags)
 
+    WA.camera.set(
+        x: 5,
+        y: 5,
+        width?: 2048,
+        height?: 2048,
+        lock: boolean = false,
+        smooth: boolean = true,
+    ): void
+
     WA.room.area.onEnter('clock').subscribe(() => {
         const today = new Date();
         const time = today.getHours() + ":" + today.getMinutes();
