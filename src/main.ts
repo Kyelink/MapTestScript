@@ -13,8 +13,8 @@ WA.onInit().then(() => {
 
     var pos = WA.player.getPosition();
     WA.camera.set(
-        pos.x,
-        pos.y,
+        pos[0],
+        pos[1],
         32768,
         32768,
         false,
