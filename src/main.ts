@@ -11,7 +11,7 @@ WA.onInit().then(() => {
     console.log('Scripting API ready');
     console.log('Player tags: ',WA.player.tags)
 
-    var pos = WA.player.getPosition();
+    
     WA.camera.set(
         4919,
         5231,
