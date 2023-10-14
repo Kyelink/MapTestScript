@@ -12,13 +12,13 @@ WA.onInit().then(() => {
     console.log('Player tags: ',WA.player.tags)
 
     WA.camera.set(
-        x: 5,
-        y: 5,
-        width?: 2048,
-        height?: 2048,
-        lock: boolean = false,
-        smooth: boolean = true,
-    ): void
+        5,
+        5,
+        2048,
+        2048,
+        false,
+        true
+    )
 
     WA.room.area.onEnter('clock').subscribe(() => {
         const today = new Date();
