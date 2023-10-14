@@ -14,8 +14,8 @@ WA.onInit().then(() => {
     WA.camera.set(
         128,
         128,
-        8192,
-        8192,
+        32768,
+        32768,
         false,
         true
     )
