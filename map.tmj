@@ -3400,32 +3400,6 @@
          "tilewidth":32
         }, 
         {
-         "columns":32,
-         "firstgid":68492,
-         "image":"..\/Sans titre.png",
-         "imageheight":1024,
-         "imagewidth":1024,
-         "margin":0,
-         "name":"Sans titre",
-         "spacing":0,
-         "tilecount":0,
-         "tileheight":32,
-         "tilewidth":32
-        }, 
-        {
-         "columns":32,
-         "firstgid":68492,
-         "image":"..\/Sans titre.png",
-         "imageheight":1024,
-         "imagewidth":1024,
-         "margin":0,
-         "name":"Sans titre",
-         "spacing":0,
-         "tilecount":0,
-         "tileheight":32,
-         "tilewidth":32
-        }, 
-        {
          "columns":8,
          "firstgid":68492,
          "image":"tilesets\/master.png",
