@@ -18,9 +18,10 @@ WA.onInit().then(() => {
         32768,
         32768,
         false,
-        true
+        false
     )
     console.log('Camera set');
+    WA.camera.followPlayer(true);
 
     WA.room.area.onEnter('clock').subscribe(() => {
         const today = new Date();
