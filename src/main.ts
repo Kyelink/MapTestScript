@@ -12,16 +12,7 @@ WA.onInit().then(() => {
     console.log('Player tags: ',WA.player.tags)
 
     
-    WA.camera.set(
-        4919,
-        5231,
-        32768,
-        32768,
-        false,
-        false
-    )
-    console.log('Camera set');
-    WA.camera.followPlayer(true);
+    
 
     WA.room.area.onEnter('clock').subscribe(() => {
         const today = new Date();
